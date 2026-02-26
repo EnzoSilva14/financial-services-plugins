@@ -1,47 +1,56 @@
-# Operating System
-.DS_Store
-Thumbs.db
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
 
-# IDE and Editor
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv
+
+# Environment variables
+.env
+.env.local
+
+# IDE
 .vscode/
 .idea/
 *.swp
 *.swo
 *~
 
-# Dependencies
-node_modules/
-vendor/
-venv/
-env/
-__pycache__/
-*.pyc
+# Database
+*.db
+*.sqlite
 
-# Build outputs
-dist/
-build/
-out/
-target/
+# Logs
 *.log
+logs/
 
-# Environment and secrets
-.env
-.env.local
-.env.*.local
-*.key
-*.pem
+# OS
+.DS_Store
+Thumbs.db
 
-# Testing
-coverage/
-.coverage
-*.cover
-.pytest_cache/
+# Alembic
+alembic/versions/*.pyc
 
-# Package files
-*.egg-info/
-.eggs/
-
-# Personal files
-TASKS.md
-MEMORY.md
-.claude/worktrees/
+# Jupyter
+.ipynb_checkpoints/
